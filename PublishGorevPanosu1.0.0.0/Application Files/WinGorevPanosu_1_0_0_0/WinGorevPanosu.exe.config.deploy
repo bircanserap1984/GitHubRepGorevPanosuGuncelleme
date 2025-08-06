@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </configSections>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+  </startup>
+  <connectionStrings>
+    <add name="DbGorevPanosuEntities" connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=SERAP-NOTEBOOK\MSSQLSERVER2022;initial catalog=DbGorevPanosu;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="DbGorevPanosuEntities1" connectionString="metadata=res://*/Model2.csdl|res://*/Model2.ssdl|res://*/Model2.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=SERAP-NOTEBOOK\MSSQLSERVER2022;initial catalog=DbGorevPanosu;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="DbGorevPanosuEntities2" connectionString="metadata=res://*/ModelCDH.csdl|res://*/ModelCDH.ssdl|res://*/ModelCDH.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=cdh-frs1\sqlexpress2014;initial catalog=DbGorevPanosu;persist security info=True;user id=sa;password=Aybike3.;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="DbGorevPanosuEntities3" connectionString="metadata=res://*/ModelCDH.csdl|res://*/ModelCDH.ssdl|res://*/ModelCDH.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=cdh-frs1\sqlexpress2014;initial catalog=DbGorevPanosu;persist security info=True;user id=sa;password=Aybike3.;multipleactiveresultsets=True;application name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="DbGorevPanosuEntities4" connectionString="metadata=res://*/ModelCDH2.csdl|res://*/ModelCDH2.ssdl|res://*/ModelCDH2.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=cdh-frs1\sqlexpress2014;initial catalog=DbGorevPanosu;persist security info=True;user id=sa;password=Aybike3.;multipleactiveresultsets=True;application name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <add name="DbGorevPanosuEntities5" connectionString="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=cdh-frs1\sqlexpress2014;initial catalog=DbGorevPanosu;persist security info=True;user id=sa;password=Aybike3.;multipleactiveresultsets=True;application name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>
+  <entityFramework>
+    <defaultConnectionFactory type="System.Data.Entity.Infrastructure.LocalDbConnectionFactory, EntityFramework">
+      <parameters>
+        <parameter value="mssqllocaldb" />
+      </parameters>
+    </defaultConnectionFactory>
+    <providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>
+  </entityFramework>
+  <appSettings>
+    <add key="MailUsername" value="bircanserap1984@gmail.com" />
+    <add key="MailPassword" value="rfdewxzrwsnvmlhs" />
+    <add key="BackgroundColor" value="#f3f4f6" />
+    <!--<add key="BackgroundColor" value="#E6F0FA"/>-->
+    <add key="CardColor" value="#ffffff" />
+    <add key="PrimaryColor" value="#3b82f6" />
+    <add key="WarningColor" value="#fbbf24" />
+    <add key="SuccessColor" value="#10b981" />
+    <add key="ErrorColor" value="#ef4444" />
+    <add key="TextBoxBackColor" value="#FFFFFF" />
+    <add key="TextBoxForeColor" value="#000000" />
+    <add key="TextBoxFocusBackColor" value="#E6F0FA" />
+    <add key="TabControlBaslikColor" value="#FFFFFF" />
+    <add key="LicenseRepoUrl" value="https://raw.githubusercontent.com/bircanserap1984/GitHubRepGorevPanosu/main/lisanslar/" />
+    <add key="LicenseFilePattern" value="license_{cpuid}.key" />
+    <!-- boşluksuz şifre -->
+  </appSettings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-6.0.0.0" newVersion="6.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Memory" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.1.2" newVersion="4.0.1.2" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Numerics.Vectors" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.1.4.0" newVersion="4.1.4.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Buffers" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.DependencyInjection.Abstractions" publicKeyToken="adb9793829ddae60" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.2" newVersion="8.0.0.2" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="System.Security.Cryptography.Pkcs" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.1" newVersion="8.0.0.1" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Extensions.Logging.Abstractions" publicKeyToken="adb9793829ddae60" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.2" newVersion="8.0.0.2" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Bcl.AsyncInterfaces" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-8.0.0.0" newVersion="8.0.0.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Threading.Tasks.Extensions" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.0.1" newVersion="4.2.0.1" />
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.ValueTuple" publicKeyToken="cc7b13ffcd2ddd51" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.0.3.0" newVersion="4.0.3.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
